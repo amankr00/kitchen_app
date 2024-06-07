@@ -107,8 +107,8 @@ flutter:
   #assets:
   #    - google_fonts/
   #     - images/bg.jpeg
-   # - assets/images/
-   # - assets/anim/  
+  # - assets/images/
+  # - assets/anim/  
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

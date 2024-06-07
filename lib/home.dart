@@ -10,16 +10,35 @@ class HomeMain extends StatelessWidget {
         body: SafeArea(
           top: true,
           child: Container(
-          width: 400,
-                        height: 400,
+              width: 400,
+              height: 400,
               child: Column(
-            children: [
-                        Container(decoration: BoxDecoration(
-                        ),
-                        color: Colors.black45,
-                        width: 400,
-                        height: 400,)],
-          )),
+                children: [
+                  // Text("this")
+                  Container(
+                      child: Row(
+
+                    children: [
+                     Row(
+                        children: [
+
+                        Row(
+                                   
+                                    children: [
+                                      Text(
+                                        'Foodiee',
+                                         
+                                      ),
+                                    ],
+                                  ),
+                        
+                        ],
+                      )
+                    ],
+                  )
+                  )
+                ],
+              )),
         ),
       ),
     );
