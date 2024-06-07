@@ -1,3 +1,4 @@
+import 'package:excel/excel.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -27,6 +28,7 @@ class HomeMain extends StatelessWidget {
                                     children: [
                                       Text(
                                         'Foodiee',
+                                        style : TextStyle()
                                          
                                       ),
                                     ],
