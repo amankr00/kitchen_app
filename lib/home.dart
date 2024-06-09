@@ -165,6 +165,28 @@ class HomeMain extends StatelessWidget {
                       ),
                     ),
                   ),
+
+                  Align(
+                    alignment: AlignmentDirectional(-0.200, -1.007),
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(60),
+                      // child: Image.network(
+                      //   'https://picsum.photos/seed/890/600',
+                      //   width: 55,
+                      //   height: 59,
+                      //   fit: BoxFit.cover,
+                      // ),
+
+                       child: Image.asset(
+                                  'assets/images/miin1.png'
+                                  ,
+                                  width: 400,
+                                  height: 300,
+                                  ),
+                    ),
+                  ),
+
+
                 ]
                 )
                 ),

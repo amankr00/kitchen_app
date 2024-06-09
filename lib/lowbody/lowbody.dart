@@ -11,7 +11,7 @@ class lowbody extends StatelessWidget {
 
       children: [
         Padding(
-          padding: EdgeInsetsDirectional.fromSTEB(50, 0, 0, 0),
+          padding: EdgeInsetsDirectional.fromSTEB(50, 50, 0, 0),
           child: Column(
             // 4 Columns
 
