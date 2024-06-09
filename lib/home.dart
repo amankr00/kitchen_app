@@ -28,9 +28,7 @@ class HomeMain extends StatelessWidget {
                     ),
                 
 
-            child: Padding(
-                padding: EdgeInsets.all(80),
-                
+           
                 // inner container
                 child: Container(
 
@@ -56,7 +54,9 @@ class HomeMain extends StatelessWidget {
                          
                         
                       ],
-                    ))),
+                    )
+                    )
+                    
           ),
 
           Align(

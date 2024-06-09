@@ -41,7 +41,7 @@ return Row(
                                         child: Padding(
                                           padding:
                                               EdgeInsetsDirectional.fromSTEB(
-                                                  10, 0, 0, 0),
+                                                  0, 0, 0, 0),
                                           child: Row(
                                             mainAxisSize: MainAxisSize.max,
                                             children: [
@@ -55,9 +55,10 @@ return Row(
                                                   //   fit: BoxFit.cover,
                                                   // ),
                                                   ),
-                                              Padding(
-                                                padding: EdgeInsets.all(10),
-                                                child: Text(
+                                              // Padding(
+                                                // padding: EdgeInsets.all(10),
+                                                // child:
+                                                Text(
                                                   '#1 Top product in the live prod hunting',
                                                   style: TextStyle(
                                                     
@@ -67,7 +68,7 @@ return Row(
                                                     fontWeight: FontWeight.w500,
                                                   ),
                                                 ),
-                                              ),
+                                              // ),
                                             ],
                                           ),
                                         ),
@@ -80,22 +81,22 @@ return Row(
                                     children: [
                                       Padding(
                                         padding: EdgeInsetsDirectional.fromSTEB(
-                                            0, 10, 0, 0),
+                                            50, 10, 0, 0),
                                         child: Container(
-                                          width : 475,
-                                          height : 214,
+                                          width : 540,
+                                          height : 350,
                                           decoration: BoxDecoration(
                                             color: Colors.white,
                                           ),
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    40, 0, 0, 0),
+                                                    40, 20, 0, 0),
                                             child: Text(
                                               'Get the food recipe more easier!',
                                               style: TextStyle(
                                                 
-                                                fontSize:52,
+                                                fontSize:80,
                                                 letterSpacing: 0,
                                                 fontWeight: FontWeight.w600,
                                               ),
