@@ -155,39 +155,92 @@ class lowbody extends StatelessWidget {
               width: 681,
               height: 474,
               decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: [Color.fromARGB(255, 255, 255, 255), Color(0x00B3B3B3)],
-                  stops: [0, 1],
-                  begin: AlignmentDirectional(0, -1),
-                  end: AlignmentDirectional(0, 1),
-                ),
+                // gradient: LinearGradient(
+                //   colors: [Color.fromARGB(255, 255, 255, 255), Color(0x00B3B3B3)],
+                //   stops: [0, 1],
+                //   begin: AlignmentDirectional(0, -1),
+                //   end: AlignmentDirectional(0, 1),
+                // ),
               ),
               child: Stack(
                 children: [
-                  Align(
+
+
+                Padding(
+                            padding: EdgeInsetsDirectional
+                                .fromSTEB(80, 10, 0, 0),
+
+
+
+                child : Container(
+
+                
+                width: 550,
+                height: 450,
+
+                
+                 decoration: BoxDecoration(
+
+                 borderRadius: BorderRadius.circular(1000),
+                  gradient: LinearGradient(
+                  colors: [Color.fromARGB(255, 255, 255, 255), Color.fromARGB(185, 243, 238, 238)],
+                  stops: [0, 1],
+                  begin: AlignmentDirectional(0, -1),
+                  end: AlignmentDirectional(0, 1),
+                  ),
+
+
+                //  boxShadow:[
+
+                // //  BoxShadow(
+                // //  color: Color.fromARGB(255, 220, 221, 220)
+                // //  )
+
+                //  ],
+                // gradient: LinearGradient(
+                //   colors: [Color.fromARGB(255, 144, 41, 41), Color(0x00B3B3B3)],
+                //   stops: [0, 1],
+                //   begin: AlignmentDirectional(0, -1),
+                //   end: AlignmentDirectional(0, 1),
+                  
+                // ),
+              ),
+
+
+
+              child : Padding(
+                            padding: EdgeInsetsDirectional
+                                .fromSTEB(20, 13, 0, 0),
+
+                  child : Align(
                     alignment: AlignmentDirectional(0.01, -0.1),
-                    child: ClipRRect(
+
+                  
+
+                   child : ClipRRect(
                         borderRadius: BorderRadius.circular(500),
-                        child: Image.asset('assets/images/hux.png'),
 
-                        //  child: Image.network(
-                        //   'https://picsum.photos/seed/885/600',
-                        //   width: 487,
-                        //   height: 392,
-                        //   fit: BoxFit.cover,
-                        // ),
+                      
 
-                        // child: Image.asset(
+                        child: Image.asset(
+                        
+                        'assets/images/hux.png',
 
-                        // 'assets/images/medium.jpg',
-
-                        // width: 787,
-                        //   height: 792,
-                        //   fit: BoxFit.fill,
-
-                        // )
-
+                        width: 560,
+                        height: 420,
+              
+                        
                         ),
+
+                        
+
+                        )
+                        
+                        
+                        
+                  ),
+                  )
+                  ),
                   ),
                   Align(
                     alignment:
@@ -196,8 +249,12 @@ class lowbody extends StatelessWidget {
                       width: 264,
                       height: 48,
                       decoration: BoxDecoration(
-                        color:
-                            Colors.white,
+
+                      boxShadow: [BoxShadow(
+                      color: Color.fromARGB(255, 239, 237, 237) )],
+                      
+                        // color:
+                        //     Colors.white,
                         borderRadius:
                             BorderRadius.circular(20),
                       ),
@@ -409,7 +466,10 @@ class lowbody extends StatelessWidget {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(-0.913, -0.915),
+                    alignment: AlignmentDirectional(-1.213, -1.215),
+
+
+
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(0),
                       // child: Image.network(
@@ -422,7 +482,8 @@ class lowbody extends StatelessWidget {
                                   'assets/images/min1.png'
                                   ,
                                   width: 130,
-                                  height: 130
+                                  height: 130,
+                                  
                                   ),
                     ),
                   ),
