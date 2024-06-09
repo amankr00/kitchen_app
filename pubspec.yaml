@@ -97,18 +97,32 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-  #assets:
+  assets:
+   - assets/images/hux.png
+   - assets/images/pix1.png
+   - assets/images/pix2.png
+   - assets/images/min1.png
+   - assets/images/min2.png
+   - assets/images/min3.png
+   - assets/images/min4.png
+   - assets/images/min5.jpg
+   
+  
+
+   
+   
+  
+   
+
+
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  #assets:
-  #    - google_fonts/
-  #     - images/bg.jpeg
-  # - assets/images/
-  # - assets/anim/  
+  #  assets: - assets/medium.jpg
+     
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
