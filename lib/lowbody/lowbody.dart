@@ -194,23 +194,23 @@ return Row(
                                           child: ClipRRect(
                                             borderRadius:
                                                 BorderRadius.circular(300),
-                                            child: Image.asset(
+                                            // child: Image.asset(
                                            
                                                  
-                                                 'assets/images/medium.jpg'
-                                                 ,
+                                            //      'assets/images/medium.jpg'
+                                            //      ,
                                            
-                                              width: 487,
-                                              height: 392,
-                                              fit: BoxFit.cover,
-                                            )
-
-                                            //  child: Image.network(
-                                            //   'https://picsum.photos/seed/885/600',
                                             //   width: 487,
                                             //   height: 392,
                                             //   fit: BoxFit.cover,
-                                            // ),
+                                            // )
+
+                                             child: Image.network(
+                                              'https://picsum.photos/seed/885/600',
+                                              width: 487,
+                                              height: 392,
+                                              fit: BoxFit.cover,
+                                            ),
 
                                             
                                           ),
