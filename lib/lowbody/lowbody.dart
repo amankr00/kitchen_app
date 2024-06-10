@@ -7,7 +7,13 @@ import 'package:kitchen_app/lowbody/rightbody/rightbody.dart';
 class lowbody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return 
+    Expanded(
+
+    flex: 2,
+    
+    child:
+      Row(
       // Column ,Row
 
       mainAxisSize: MainAxisSize.max,
@@ -21,6 +27,7 @@ class lowbody extends StatelessWidget {
 
         rightbody(),
         ],
-    );
+    ));
+  
   }
 }

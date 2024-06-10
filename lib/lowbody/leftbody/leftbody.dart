@@ -75,9 +75,10 @@ Widget build(BuildContext context) {
                         child: Text(
                           'Get the food recipe more easier!',
                           style: TextStyle(
+
                             fontSize: 80,
                             letterSpacing: 0,
-                            fontWeight: FontWeight.w600,
+                            fontWeight: FontWeight.w400,
                           ),
                         ),
                       ),

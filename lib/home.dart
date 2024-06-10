@@ -167,7 +167,7 @@ class HomeMain extends StatelessWidget {
                   ),
 
                   Align(
-                    alignment: AlignmentDirectional(-0.200, -1.007),
+                    alignment: AlignmentDirectional(-0.170, -0.900),
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(60),
                       // child: Image.network(
@@ -180,8 +180,8 @@ class HomeMain extends StatelessWidget {
                        child: Image.asset(
                                   'assets/images/miin1.png'
                                   ,
-                                  width: 400,
-                                  height: 300,
+                                  width: 300,
+                                  height: 200,
                                   ),
                     ),
                   ),
