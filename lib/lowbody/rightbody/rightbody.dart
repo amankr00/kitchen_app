@@ -9,7 +9,8 @@ class rightbody extends StatelessWidget {
           mainAxisSize: MainAxisSize.max,
           children: [
             Container(
-              width: 681,
+              width: 680,
+              
               height: 474,
               decoration: BoxDecoration(
                 // gradient: LinearGradient(
